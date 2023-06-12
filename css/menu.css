@@ -1,0 +1,124 @@
+body{
+    background-image: url("../image/o3F.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+.image-container{
+    margin-top: 20px;
+}
+
+.image-container img {
+    width: 300px;
+    height: 300px;
+    border-radius: 60%;
+    object-fit: cover;
+    object-position: center top;
+    margin: 80px;
+}
+
+#img1{
+   width: 300px;
+   height: 300px;
+   border-radius: 60%;
+   object-fit: cover;
+   object-position: center top;
+   
+    
+}
+
+#img2{
+    width: 300px;
+    height: 300px;
+    border-radius: 60%;
+    object-fit: cover;
+    object-position: center top;
+}
+
+#img3{
+    width: 300px;
+    height: 300px;
+    border-radius: 60%;
+    object-fit: cover;
+    object-position: center top;
+
+}
+
+#img4{
+    width: 300px;
+    height: 300px;
+    border-radius: 60%;
+    object-fit: cover;
+    object-position: center top;
+}
+
+
+
+.menu-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.menu-container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    text-align: center;
+    color: aliceblue;
+    
+    
+   
+}
+@font-face {
+    font-family: Font;
+    src: url("../fonts/Franchise.ttf");
+}
+.menu-container h2 {
+    margin-bottom: 20px;
+    font-family: Font;
+    font-size: 50px;
+}
+@font-face {
+    font-family: Fran;
+    src: url("../fonts/Championship.ttf");
+}
+.menu-container label {
+    font-family: Fran;
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    
+    
+}
+
+
+#name1{
+    color: maroon;
+}
+
+
+
+@font-face {
+    font-family: Militar;
+    src: url("../fonts/ARMY\ RUST.ttf");
+}
+.menu-container button {
+    font-family: Militar;
+    font-size: 30px;
+    padding: 10px 20px;
+    background-color: #eff1f3;
+    color: hsl(0, 0%, 3%);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}

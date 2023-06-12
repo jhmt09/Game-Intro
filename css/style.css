@@ -1,0 +1,32 @@
+body{
+    background-image: url(https://rare-gallery.com/uploads/posts/344594-Mustang-Sports-Car-Retrowave-Synthwave-Vaporwave.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+@font-face {
+    font-family: 'Play';
+    src: url('../fonts/DPoly\ Six-Sider.otf');
+}
+.meu-botao {
+   
+    font-family: Play;
+    color:black;
+    border-radius: 20px;
+    background-color: rgb(230, 211, 245);
+    padding: 20px 30px;
+    font-size: 40px;
+    
+}

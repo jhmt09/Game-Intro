@@ -1,0 +1,70 @@
+body{
+    background-image: url(https://rare-gallery.com/mocahbig/90072-retrowave-artist-artwork-digital-art-hd-4k-outrun.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.login-container {
+    width: 300px;
+    padding: 20px;
+    background-color: rgba(240, 240, 240, 0.733);
+    border-radius: 10px;
+    border-radius: 10px;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  
+  }
+  @font-face {
+    font-family: 'Font';
+    src: url('../fonts/Franchise.ttf');
+    }
+  
+  
+  h2 {
+   
+    font-family: Font;
+    font-size: 60px;
+    color: tomato;
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  @font-face {
+    font-family: 'Font1';
+    src: url('../fonts/FranchiseFilled.ttf');
+  }
+  label {
+    font-family: Font1;
+    margin-bottom: 10px;
+    color: black(214, 69, 214);
+    font-size: 25px;
+    
+  }
+  
+  input {
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  @font-face {
+    font-family: 'champ';
+    src: url('../fonts/Championship.ttf');
+  }
+  button {
+    font-family: champ;
+    font-size: 18PX;
+    color: rgb(113, 113, 243);
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
