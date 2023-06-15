@@ -8,15 +8,17 @@
     <link rel="stylesheet" href="../css/intro.css">
 </head>
 <body>
-    <audio class="audio" src="../music/music intro.mp3" controls autoplay loop ></audio>
+    <audio class="audio" src="../music/music intro.mp3" controls ></audio>
     <div class="login-container">
         <h2>Login</h2>
-        <form>
-         <strong><label for="username" id="nick">Nickname:</label></strong>
-          <input type="text" id="pass" name="pass">
-          </form>
-          <button onclick="ToPage()">ENTRAR</button>
-      </div>
-      <script src="../js/intro.js"></script>
+        <form action="http://localhost:5500/salvar-dados" method="POST">
+            <strong><label for="nickname" id="nick">Nickname:</label></strong>
+            <input type="text" id="nickname" name="nick">
+            <strong><label for="password" id="pass">Password:</label></strong>
+            <input type="password" id="password" name="pass">
+            <button type="submit" onclick="ToPage()">ENTRAR</button>
+        </form>
+    </div>
+    <script src="../js/intro.js"></script>
 </body>
 </html>
