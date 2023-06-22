@@ -11,12 +11,12 @@
     <audio class="audio" src="../music/music intro.mp3" controls ></audio>
     <div class="login-container">
         <h2>Login</h2>
-        <form action="http://localhost:5500/salvar-dados" method="POST">
+        <form id="login-form">
             <strong><label for="nickname" id="nick">Nickname:</label></strong>
             <input type="text" id="nickname" name="nick">
             <strong><label for="password" id="pass">Password:</label></strong>
             <input type="password" id="password" name="pass">
-            <button type="submit" onclick="ToPage()">ENTRAR</button>
+            <button type="submit">ENTRAR</button>
         </form>
     </div>
     <script src="../js/intro.js"></script>

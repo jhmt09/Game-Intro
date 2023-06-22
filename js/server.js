@@ -14,8 +14,8 @@ const pool = new Pool({
   user: 'postgres',
   host: 'localhost',
   database: 'game_retro',
-  password: '********',
-  port: 1111,
+  password: '35561122',
+  port: 5432,
 });
 
 // Rota para salvar os dados de login no banco de dados
